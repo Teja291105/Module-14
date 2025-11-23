@@ -25,9 +25,20 @@ To write a Python program to insert elements at REAR END of deque using a collec
 ### PROGRAM  
 
 ```
+import collections
+a=int(input())
+b=int(input())
+c=int(input())
+de=collections.deque([a,b,c])
+de.append(14)
+de.append(15)
+print("The deque after appending at right is :")
+print(de)
 
 ```
 
 ### OUTPUT
+<img width="962" height="276" alt="image" src="https://github.com/user-attachments/assets/e039c90b-19b3-43fc-87a4-6d27e072d21b" />
 
 ### RESULT
+Thus the Python program to insert elements at REAR END of deque using a collection built-in function is implemented and executed successfully
